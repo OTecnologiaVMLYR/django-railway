@@ -132,3 +132,5 @@ STATIC_URL = '/static/'
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
+
+CSRF_TRUSTED_ORIGINS = ['https://django-railway-production-570d.up.railway.app']
